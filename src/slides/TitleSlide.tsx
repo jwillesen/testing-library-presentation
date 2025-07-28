@@ -1,9 +1,16 @@
 export default function TitleSlide() {
   return (
     <section>
-      <h1>Testing Library</h1>
-      <p>Presented by Jon Willesen</p>
-      <time dateTime="2025-07-28">July 28, 2025</time>
+      <img src="/testing-library-logo.png" alt="Testing Library Logo" />
+      <h1 style={{ textTransform: "none" }}>
+        Testing UIs with @testing-library
+      </h1>
+      <div className="text-right">
+        <p>by Jon Willesen</p>
+        <time className="text-2xl" dateTime="2025-07-28">
+          July 28, 2025
+        </time>
+      </div>
     </section>
   )
 }
