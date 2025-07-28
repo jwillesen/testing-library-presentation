@@ -1,11 +1,10 @@
-import { useEffect } from "react"
+import { useLayoutEffect } from "react"
 import Reveal from "reveal.js"
 
-import "reveal.js/dist/reveal.css"
-import "reveal.js/dist/theme/black.css"
+import TitleSlide from "./slides/TitleSlide"
 
 export default function Presentation() {
-  useEffect(() => {
+  useLayoutEffect(() => {
     Reveal.initialize({
       controlsTutorial: false,
     })
@@ -14,7 +13,7 @@ export default function Presentation() {
   return (
     <div className="reveal">
       <div className="slides">
-        <section>Slide 1</section>
+        <TitleSlide />
         <section>Slide 2</section>
       </div>
     </div>

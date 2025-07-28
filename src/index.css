@@ -1,0 +1,8 @@
+/* Don't import tailwind wholly because the preflight mucks with Reveal.js styles */
+/* @import "tailwindcss"; */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@import "reveal.js/dist/reveal.css";
+@import "reveal.js/dist/theme/black.css";
