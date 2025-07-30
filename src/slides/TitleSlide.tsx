@@ -3,7 +3,9 @@ export default function TitleSlide() {
     <section>
       <img src="/testing-library-logo.png" alt="Testing Library Logo" />
       <h1 style={{ textTransform: "none" }}>
-        Testing UIs with @testing-library
+        Testing UIs with
+        <br />
+        @testing-library
       </h1>
       <div className="text-right">
         <p>by Jon Willesen</p>
