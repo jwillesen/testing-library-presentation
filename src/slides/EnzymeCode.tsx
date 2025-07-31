@@ -1,6 +1,7 @@
 export default function EnzymeCode() {
   return (
     <section className="text-xl">
+      <h2>Testing with Enzyme</h2>
       <div className="flex">
         <pre className="flex-1">
           <code
@@ -39,12 +40,15 @@ describe('Counter (Enzyme style)', () => {
           </code>
         </pre>
         <div className="flex-1">
-          <h2 className="fragment">Encapsulation?</h2>
+          <h3 className="fragment">Encapsulation?</h3>
           <ul>
-            <li className="fragment">Examines internal state</li>
-            <li className="fragment">Selects elements using CSS selectors</li>
             <li className="fragment">
-              Snapshot captures the shallow rendering tree
+              Examines the component's internal state.
+            </li>
+            <li className="fragment">Selects elements using CSS selectors.</li>
+            <li className="fragment">
+              Snapshot captures the shallow rendering tree – composed components
+              appear in snapshot.
             </li>
           </ul>
         </div>

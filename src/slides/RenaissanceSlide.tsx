@@ -16,7 +16,7 @@ export default function RenaissanceSlide() {
           </li>
           <li>Angular, Ember, Backbone, Knockout popularize SPA patterns</li>
           <li>
-            Jasmine, Mocha, QUnit, Karma, Sinon—better, but UI testing still
+            Jasmine, Mocha, QUnit, Karma, Sinon – better, but UI testing still
             clunky
           </li>
         </ul>

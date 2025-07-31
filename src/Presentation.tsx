@@ -14,6 +14,13 @@ import RenaissanceSlide from "./slides/RenaissanceSlide"
 import ModernUiTestingSlide from "./slides/ModernUiTestingSlide"
 import EnzymeCode from "./slides/EnzymeCode"
 import WhiteVsBlackSlide from "./slides/WhiteVsBlackSlide"
+import TestingLibraryIntroSlide from "./slides/TestingLibraryIntroSlide"
+import DomTestingLibrarySlide from "./slides/DomTestingLibrarySlide"
+import ReactTestingLibrarySlide from "./slides/ReactTestingLIbrarySlide"
+import UserEventSlide from "./slides/UserEventSlide"
+import WhichSelectorSlide from "./slides/WhichSelectorSlide"
+import JestDomSlide from "./slides/JestDomSlide"
+import ExampleRatingComponentSlide from "./slides/ExampleRatingComponentSlide"
 
 export default function Presentation() {
   useLayoutEffect(() => {
@@ -38,6 +45,13 @@ export default function Presentation() {
         <RenaissanceSlide />
         <EnzymeCode />
         <ModernUiTestingSlide />
+        <TestingLibraryIntroSlide />
+        <DomTestingLibrarySlide />
+        <WhichSelectorSlide />
+        <ReactTestingLibrarySlide />
+        <JestDomSlide />
+        <UserEventSlide />
+        <ExampleRatingComponentSlide />
       </div>
     </div>
   )

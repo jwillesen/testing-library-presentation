@@ -32,9 +32,15 @@ export default function ModernUiTestingSlide() {
         </time>
         <ul className={listClasses}>
           <li>
-            Kent C. Dodds releases react-testing-library (@testing-library)
+            Kent C. Dodds releases react-testing-library (now
+            @testing-library/react)
           </li>
-          <li>Popularizes a new philosophy: "Test the way users interact"</li>
+          <li>
+            <blockquote style={{ margin: 0 }}>
+              "The more your tests resemble the way your software is used, the
+              more confidence they can give you."
+            </blockquote>
+          </li>
         </ul>
 
         <time className={timeClasses} dateTime="2018">
@@ -43,11 +49,11 @@ export default function ModernUiTestingSlide() {
         <ul className={listClasses}>
           <li>
             @testing-library dominates component testing – React, Vue, Angular,
-            Svelte
+            Svelte, etc.
           </li>
           <li>
-            Cypress, Playwright, TestCafe rise for end-to-end testing – faster,
-            more dev-focused than Selenium
+            Cypress, Playwright, TestCafe, Web Test Runner – faster, more
+            dev-focused end-to-end testing than Selenium
           </li>
           <li>
             Consensus: test public interface, avoid implementation details, make

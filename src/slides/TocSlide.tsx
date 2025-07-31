@@ -7,7 +7,7 @@ export default function TocSlide() {
         <li>Fundamentals</li>
         <li>A Brief History</li>
         <li>Testing Library Overview</li>
-        <li>Best Practices</li>
+        <li>Coding Exercise</li>
         <li>Conclusion</li>
       </ul>
     </section>
