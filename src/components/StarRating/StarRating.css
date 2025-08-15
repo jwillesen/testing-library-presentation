@@ -1,0 +1,17 @@
+.star-rating-star {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.star-rating-star:hover {
+  transform: scale(1.2);
+}
+
+.gold-star {
+  color: gold;
+}
+
+.grey-star {
+  color: grey;
+}
