@@ -13,8 +13,8 @@ export default function DomTestingLibrarySlide() {
               data-line-numbers
             >{`import { screen } from "@testing-library/dom"
 
-const submitBtn = screen.getByRole("button", { name: "Submit" })
-const avatarImg = screen.queryAllByTestId("user-avatar")
+const submitBtn = screen.getByText("Submit")
+const radioButtons = screen.queryAllByRole("radio")
 const termInput = await screen.findByLabelText(/term/i)
                 `}</code>
           </pre>
