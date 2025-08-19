@@ -9,8 +9,8 @@ export default function TitleSlide() {
       </h1>
       <div className="text-right">
         <p>by Jon Willesen</p>
-        <time className="text-2xl" dateTime="2025-07-28">
-          July 28, 2025
+        <time className="text-2xl" dateTime="2025-08-19">
+          Aug 19, 2025
         </time>
       </div>
     </section>
