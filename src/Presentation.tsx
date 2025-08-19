@@ -21,6 +21,8 @@ import UserEventSlide from "./slides/UserEventSlide"
 import WhichSelectorSlide from "./slides/WhichSelectorSlide"
 import JestDomSlide from "./slides/JestDomSlide"
 import ExampleRatingComponentSlide from "./slides/ExampleRatingComponentSlide"
+import ConclusionSlide from "./slides/ConclusionSlide"
+import EndSlide from "./slides/EndSlide"
 
 export default function Presentation() {
   useLayoutEffect(() => {
@@ -52,6 +54,8 @@ export default function Presentation() {
         <JestDomSlide />
         <UserEventSlide />
         <ExampleRatingComponentSlide />
+        <ConclusionSlide />
+        <EndSlide />
       </div>
     </div>
   )

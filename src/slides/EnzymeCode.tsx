@@ -47,8 +47,12 @@ describe('Counter (Enzyme style)', () => {
             </li>
             <li className="fragment">Selects elements using CSS selectors.</li>
             <li className="fragment">
-              Snapshot captures the shallow rendering tree – composed components
-              appear in snapshot.
+              Shallow snapshots capture the shallow rendering tree – composed
+              components appear in snapshot.
+            </li>
+            <li className="fragment">
+              Deep snapshots capture the exact DOM tree generated. Can't
+              restructure to an equivalent DOM without updating snapshot.
             </li>
           </ul>
         </div>
